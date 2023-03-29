@@ -20,9 +20,8 @@ const slimak = add([
     pos(100,300)
 ])
 
-add([
-    play("muzyka")
-])
+onMouseRelease(()=> play("muzyka")
+
 
 let lewo=true
 
